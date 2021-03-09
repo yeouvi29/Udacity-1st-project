@@ -6,6 +6,7 @@ body {
 h1,h4 {
     color: #ffffff;
 }
+
 h2, h3 {
     color: #364f6b;
 }
@@ -111,6 +112,7 @@ section {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     padding: 30px;
 }
+
 .article {
     background-color: #f6f6f6;
     margin: 10px;
@@ -135,6 +137,7 @@ aside > p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #ff6f3c;
 } 
+
 .pro {
     text-decoration: underline;
 }

@@ -6,6 +6,7 @@ body {
 h1,h4 {
     color: #ffffff;
 }
+
 h2, h3 {
     color: #364f6b;
 }
@@ -127,30 +128,35 @@ section {
     background-size: auto 380px;
     background-repeat: no-repeat;
 }
+
 .img2 {
     background-image: url("../images/Toko-2.jpeg");
     background-position: center;
     background-size: auto 380px;
     background-repeat: no-repeat;
 }
+
 .img3 {
     background-image: url("../images/Toko-3.jpeg");
     background-position: center;
     background-size: auto 380px;
     background-repeat: no-repeat;
 }
+
 .img4 {
     background-image: url("../images/Toko-4.jpeg");
     background-position: center;
     background-size: auto 380px;
     background-repeat: no-repeat;
 }
+
 .img5 {
     background-image: url("../images/Toko-5.jpeg");
     background-position: center;
     background-size: auto 380px;
     background-repeat: no-repeat;
 }
+
 .img6 {
     background-image: url("../images/Toko-6.jpg");
     background-position: center;

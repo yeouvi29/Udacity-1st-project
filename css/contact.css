@@ -6,6 +6,7 @@ body {
 h1 {
     color: #ffffff;
 }
+
 h2,h3 {
     color: #364f6b;
 }
@@ -108,16 +109,17 @@ form {
     grid-column: span 5;
     max-width: 570px;
     padding: 30px; 
-
-
 }
+
 section {
     grid-column: 2/5;
     margin: auto;
 }
+
 label {
     color: grey;
 }
+
 input[type=text], [type=email] {
     width: 100%;
     padding: 12px;
