@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
     <title>Emily K.</title>
 </head>
 <body>
     <div class="container">
-        <header>
+        <header class="top-container">
             <div class="home">
                 <a href="index.html"><h1>Emily's Workspace</h1></a>
             </div>
@@ -24,28 +25,29 @@
             </div>
         </header>
         
-        <section class="bio-container">
+        <div class="mid-container" id="bio-container">
             <div class="bio">
                 <div class="bio-list">
                         <h2 class=>Biography</h2>
                         <ul>
-                            <li>Name: Emily K.</li>
-                            <li>Title: recruting volunteer</li>
-                            <li>Organization: Simple Steps Community Connection</li>
-                            <li>Hobbies: coding, listening podcast </li>
-                            <li>Things I like: spicy food, playing with Toko</li>
+                            <li><span class="label">Name:</span> Emily K.</li>
+                            <li><span class="label">Title:</span> recruting volunteer</li>
+                            <li><span class="label">Organization:</span> Simple Steps Community Connection</li>
+                            <li><span class="label">Hobbies:</span> coding, listening podcast </li>
+                            <li><span class="label">Things I like:</span> spicy food, playing with Toko</li>
                         </ul>
                     <br/>
                     <h2>Social Sharing</h2>
                     <p><a href="https://www.linkedin.com/in/emily-kang-324798110/" target="_blank">LinkedIn</a></p>
                 </div>
                 <div class="bio-image">
-                    <img src="images/emily-photo.jpg" alt="my image" />    
+                    <img src="images/emily-photo.jpg" alt="my image" />
+                    <figcaption>My Image</figcaption>    
                 </div>
             </div>
-        </section>
+        </div>
     
-        <footer><p>&copy; Emily K.</p></footer>
+        <footer class="bottom-container"><p>&copy; Emily K.</p></footer>
     </div>
 </body>
 </html>
