@@ -183,7 +183,7 @@ h2, h3 {
 
 /* media */
 
-@media(min-width: 700px) {
+@media(min-width: 400px) {
     #main {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -192,6 +192,27 @@ h2, h3 {
     }
     .aside {
         min-width: 200px;
+    }
+}
+
+@media (max-width: 420px) {
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+    #main {
+        width: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+    .top-container {
+        min-width: 100%;
+    }
+
+    .aside {
+        min-width: 100%;
     }
 }
 
